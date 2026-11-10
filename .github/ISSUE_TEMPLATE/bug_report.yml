@@ -1,0 +1,58 @@
+name: Bug report
+description: Something in SerialFlow does not work as expected
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing the SerialFlow pre-release! Please **do not paste private or confidential data** from your devices.
+  - type: input
+    id: version
+    attributes:
+      label: SerialFlow version
+      description: Settings → About
+      placeholder: 0.9.0-beta.1
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: adapter
+    attributes:
+      label: Serial device / adapter
+      description: For example "FTDI FT232R", "ST-Link VCP", "CH340", "none (test file)"
+  - type: input
+    id: baud
+    attributes:
+      label: Baud rate
+      placeholder: "115200"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Connect to COM4 at 115200
+        2. Open the Graph panel
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample data or log (optional)
+      description: A few lines of the serial output that trigger the problem. Screenshots can be dragged in here.
+      render: text

@@ -1,0 +1,55 @@
+SerialFlow Licence (Freeware, Pre-release)
+Version 1.0, 6 November 2026
+
+Copyright (c) 2026 Lizerd (https://lizerd.se). All rights reserved.
+
+This licence applies to the SerialFlow software as published by Lizerd: the installer, the program files,
+the example data and the documentation ("the Software").
+
+1. Free use
+   You may install and use the Software free of charge, for personal or commercial purposes, on any number
+   of computers.
+
+2. What you may not do
+   You may not:
+   a) sell, rent or charge for the Software;
+   b) redistribute the Software or put it on another download site. Please link to
+      https://lizerd.se/serialflow/ or https://github.com/Lizerd/SerialFlow-Releases instead;
+   c) modify, decompile or reverse engineer the Software, except where applicable law expressly allows it;
+   d) remove or change copyright notices or this licence.
+
+3. Pre-release
+   This version is a pre-release (beta). It may contain bugs, and features may change or be removed in later
+   versions. Do not rely on it for safety-critical work.
+
+4. Future versions
+   The Software is free for now. Later versions may be offered under different terms. A version you have
+   already downloaded may keep being used under the licence it came with.
+
+5. Anonymous usage counts
+   If you agree when the Software asks, it sends a small anonymous report at most once a day: the app version,
+   the Windows version, the minutes the app was open, and whether this is the first report of the day, week,
+   month or ever. The report contains no identifier, no personal data and nothing about your devices or data.
+   Separately, the Software may check https://lizerd.se/serialflow/latest.json for a newer version. You can turn
+   off both in Settings > About. Details: PRIVACY.md.
+
+6. Third-party components
+   The Software includes components from other authors under their own licences. They are listed in
+   THIRD-PARTY-NOTICES.md. Nothing in this licence limits your rights under those licences.
+
+7. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+   TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+8. Limitation of liability
+   To the extent permitted by law, the author is not liable for any damages arising from the use of, or the
+   inability to use, the Software, including loss of data, damage to connected equipment, or lost profits.
+   Nothing in this licence limits liability that cannot be limited by law.
+
+9. Termination
+   This licence ends automatically if you break its terms. You must then delete the Software.
+
+10. Governing law
+   This licence is governed by Swedish law.
+
+Questions: https://github.com/Lizerd/SerialFlow-Releases/issues

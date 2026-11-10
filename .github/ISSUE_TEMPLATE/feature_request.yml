@@ -1,0 +1,22 @@
+name: Feature request
+description: An idea that would make SerialFlow more useful
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or situation, for example "I log two boards at once and want to compare them".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SerialFlow version
+      placeholder: 0.9.0-beta.1
