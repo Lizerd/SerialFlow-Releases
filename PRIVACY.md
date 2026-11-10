@@ -26,13 +26,14 @@ day:
 - no user or install ID, no computer name, user name or hardware fingerprint
 - nothing about your serial ports, devices, logs, graphs or settings
 
-**What is kept:** the server adds each count to daily totals (for example "312 active installs, 840 hours, 6 Nov")
-and throws the report itself away. Your IP address is not stored.
+**What is kept:** a small script on lizerd.se adds each count to daily totals (for example "312 active installs,
+840 hours, 10 Nov") and throws the report itself away. The script stores no IP address and no ID.
 
 **Who handles it:**
-- The counts are received by a Cloudflare Worker on lizerd.se and stored in Cloudflare D1.
-- Cloudflare processes the web traffic as the hosting provider.
-- GitHub handles downloads and issues under its own privacy policy.
+- lizerd.se is hosted by Hostup in Sweden, with Cloudflare in front. The update check and the daily count pass
+  through them like any visit to the website, and the web host keeps standard access logs (which include IP
+  addresses) under its own policy.
+- GitHub handles downloads, updates and issues under its own privacy policy.
 
 **Changing your mind:** Settings → About → "Send anonymous usage counts".
 
@@ -40,4 +41,4 @@ and throws the report itself away. Your IP address is not stored.
 
 Questions: https://github.com/Lizerd/SerialFlow-Releases/issues
 
-*Last updated: 6 November 2026.*
+*Last updated: 10 November 2026.*
