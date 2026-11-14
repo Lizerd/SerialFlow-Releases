@@ -11,12 +11,13 @@ GitHub (`github.com/Lizerd/SerialFlow-Releases`).
 
 ## 2. Anonymous usage count (only if you say yes)
 
-At first start SerialFlow asks whether it may send an anonymous count. If you agree, it sends this at most once a
-day:
+At first start SerialFlow asks whether it may send an anonymous count. If you say no (or close the question), it
+asks again 14 days later, and every 14 days after that, until you say yes or tick "Don't ask me again". If you agree,
+it sends this at most once a day:
 
 | Sent | Example |
 |---|---|
-| App version | `0.9.0-beta.1` |
+| App version | `0.9.0-beta.2` |
 | Windows version (major only) | `win11` |
 | Channel | `beta` |
 | Minutes the app was open since the last count | `95` |
@@ -35,10 +36,11 @@ day:
   addresses) under its own policy.
 - GitHub handles downloads, updates and issues under its own privacy policy.
 
-**Changing your mind:** Settings → About → "Send anonymous usage counts".
+**Changing your mind:** Settings → About → "Send anonymous usage counts". Turning it off there is final: SerialFlow
+does not ask again.
 
 ## 3. Contact
 
 Questions: https://github.com/Lizerd/SerialFlow-Releases/issues
 
-*Last updated: 10 November 2026.*
+*Last updated: 14 November 2026.*

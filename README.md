@@ -4,14 +4,14 @@
 A serial terminal for Windows that starts as a compact UART logger and grows into real-time graphs, live status
 windows and dashboards, driven by plain-text output from your firmware.
 
-> **Pre-release (beta).** Version `0.9.0-beta.1`, 10 November 2026. It is free for now. Expect rough edges, and
+> **Pre-release (beta).** Version `0.9.0-beta.2`, 14 November 2026. It is free for now. Expect rough edges, and
 > please [report what you find](../../issues/new/choose).
 
 ![SerialFlow compact logger](docs/l07_compact_3up.png)
 
 ## Download
 
-**[SerialFlow-win-Setup.exe (0.9.0-beta.1)](https://github.com/Lizerd/SerialFlow-Releases/releases/download/v0.9.0-beta.1/SerialFlow-win-Setup.exe)**
+**[SerialFlow-win-Setup.exe (0.9.0-beta.2)](https://github.com/Lizerd/SerialFlow-Releases/releases/download/v0.9.0-beta.2/SerialFlow-win-Setup.exe)**
 · all versions: [Releases](../../releases)
 
 - Windows 11, 64-bit. Windows 10 should work but has not been tested yet.
