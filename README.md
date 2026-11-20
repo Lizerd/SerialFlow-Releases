@@ -16,8 +16,15 @@ windows and dashboards, driven by plain-text output from your firmware.
 
 - Windows 11, 64-bit. Windows 10 should work but has not been tested yet.
 - There is nothing else to install: .NET is built in. The installer installs for your user account only.
-- The installer is not code-signed yet, so Windows SmartScreen may say *"Windows protected your PC"*. Click
-  **More info → Run anyway**.
+- **The installer is not code-signed yet.** Windows cannot confirm who made it or that nobody changed it.
+  - Windows SmartScreen may say *"Windows protected your PC"*: click **More info → Run anyway**.
+  - Windows 11 **Smart App Control**, when it is **On**, blocks the installer with no way past it. Turning Smart App
+    Control off removes that protection for every program on the PC, and on many PCs it cannot be turned on again
+    without resetting Windows. We do not ask you to do that: wait for a signed version (planned, no date yet).
+  - In **Evaluation** mode Windows may switch Smart App Control on later, and then it may stop an installed SerialFlow
+    from starting.
+  - Download only from this page or https://lizerd.se/serialflow/. Each release's notes give the installer's SHA-256
+    fingerprint; check it with `Get-FileHash .\SerialFlow-win-Setup.exe` in PowerShell.
 - Later versions are offered from inside the app.
 
 More on the product page: **https://lizerd.se/serialflow/**
