@@ -4,7 +4,7 @@
 A serial terminal for Windows that starts as a compact UART logger and grows into real-time graphs, live status
 windows and dashboards, driven by plain-text output from your firmware.
 
-> **Pre-release (beta).** Version `0.9.0-beta.2`, 14 November 2026. It is free for now. Expect rough edges, and
+> **Pre-release (beta).** Version `0.9.0-beta.2`, 24 November 2026. It is free for now. Expect rough edges, and
 > please [report what you find](../../issues/new/choose).
 
 ![SerialFlow compact logger](docs/l07_compact_3up.png)
