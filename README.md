@@ -36,7 +36,7 @@ More on the product page: **https://lizerd.se/serialflow/**
 - **Status windows:** firmware updates lines of a status table in place (`~WrLi1:2:Speed 2200 rpm`)
 - **Real-time graphs** from one text line per sample (`~{A:1:23.5:67.2}`): streamer, logger, oscilloscope frame and XY
   modes, with markers, statistics and run comparison
-- **Dashboards:** a drag-and-drop HMI canvas with 35 widget types, or an instant signal grid
+- **Dashboards:** a drag-and-drop HMI canvas with 67 widget types, or an instant signal grid
 - **Automation:** Quick Send buttons, macros that wait for the device, auto-reply rules
 - **Data:** record every signal to SQLite, CSV or JSON Lines; save `.sfplot` sessions; export CSV / JSON
 
